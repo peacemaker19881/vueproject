@@ -1,6 +1,6 @@
 <template>
    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <a class="navbar-brand" href="#"> </a>
+    <a class="navbar-brand" href="#">My web contents </a>
     <button 
     class="navbar-toggler" 
     type="button" 
