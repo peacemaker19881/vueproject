@@ -1,11 +1,8 @@
 <template>
     <div>
-       <p>Home page</p> 
+       <p>Post page  </p>
     </div>
 </template>
-
 <script>
-export default {
-    
-};
+export default {};
 </script>

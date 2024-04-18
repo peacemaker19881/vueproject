@@ -1,6 +1,6 @@
 <template>
    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"> </a>
     <button 
     class="navbar-toggler" 
     type="button" 
@@ -13,17 +13,10 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarnav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="/" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="/post_component" class="nav-link">Post</a>
-            </li>
-            <li class="nav-item">
-                <a href="/createpost_component" class="nav-link">Create Post</a>
-            </li>
-        </ul>
-    </div>
+        
+<a href="/">Home</a>
+<a href="/post_component">  Post</a>
+<a href="/createpost_component">   Create Post</a>
+</div>
 </nav>
 </template>
