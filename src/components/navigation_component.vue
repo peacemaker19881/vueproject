@@ -13,10 +13,18 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarnav">
+  
+          <router-link to ="./" class ="nav-link">Home</router-link>
+      
+          <router-link to ="/post_component" class ="nav-link">   Posts</router-link>
+      
+          <router-link to ="/createpost_component" class ="nav-link">   CreatePosts</router-link>
         
-<a href="/">Home</a>
-<a href="/post_component">  Post</a>
-<a href="/createpost_component">   Create Post</a>
-</div>
+    </div>
 </nav>
 </template>
+<style scoped>
+a.router-link-active{
+  background: #bbb;
+}
+</style>
